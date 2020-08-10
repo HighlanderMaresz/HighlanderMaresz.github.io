@@ -1,0 +1,112 @@
+@font-face {
+    font-family: "Lemonada";
+    src: url(/fonts/Lemonada/Lemonada-Regular.ttf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: "Lemonada_light";
+    src: url(/fonts/Lemonada/Lemonada-Light.ttf);
+    font-weight: 200;
+}
+body {
+    background-color: rgb(219, 212, 212);
+    font-family: "Lemonada_light", fantasy, sans-serif;
+    font-size: 14px;
+}
+h1 {
+    color: cornflowerblue;
+    font-family: "Lemonada", fantasy, sans-serif;
+    text-align: center;
+    padding: 0px;
+}
+h2, h3 {
+    color: darkred;
+    font-family: "Lemonada_light";
+    text-align: center;
+    padding: 0px;
+}
+h5 {
+    color: darkslateblue;
+    text-align: center;
+    padding: 0px;
+}
+p {
+    font-family: "Lemonada_light", fantasy, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: justify;
+}
+img {
+    width: 400px;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 1px;
+    box-shadow: 0px 0px 8px #888888;
+}
+#img_bonsai {
+    width: 600px;
+    height: 400px;
+}
+.content {
+    font-family: "Lemonada_light";
+    text-align: justify;
+    color: rgb(81, 95, 109);
+    font-size: 16px;
+}
+img {
+    width: 600px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;    
+}
+ul {
+    font-family: "Lemonada_light";
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li {
+    float: left;
+    border-right: 1px solid #bbb;
+
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+}
+.active {
+    background-color: #4CAF50;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th {
+    background-color: rgb(60, 160, 160);
+    color: white;
+}
+th, td {
+    text-align: left;
+    padding: 6px;
+}
+tr:nth-child(even) {background-color: #f2f2f2;}
+tr:hover {background-color: #84c487;}
+.bold {
+    font-weight: bold;
+}
+#leader {
+    width: auto;
+    height: 800px;
+    padding: 2px;
+    overflow: auto;
+}
